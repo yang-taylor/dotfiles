@@ -40,6 +40,7 @@ grep 3.6-1
 groff 1.22.4-4
 grub 2:2.04-10
 gzip 1.10-3
+heroku-cli 7.51.0-1
 htop 3.0.5-1
 i3-wm 4.19.2-1
 i3blocks 1.5-3
@@ -97,7 +98,7 @@ texlive-pictures 2020.57065-1
 texlive-pstricks 2020.56758-1
 texlive-publishers 2020.57058-1
 texlive-science 2020.57068-1
-thefuck 3.30-2
+thefuck 3.30-3
 tk 8.6.11.1-1
 tmux 3.1_c-1
 ttf-fira-code 5.2-1
@@ -115,7 +116,7 @@ xorg-xinit 1.4.1-3
 xorg-xrandr 1.5.1-2
 yarn 1.22.10-1
 yay 10.2.0-1
-youtube-dl 2021.03.25-1
+youtube-dl 2021.03.31-1
 zip 3.0-9
 
 npm: 
@@ -142,6 +143,7 @@ codespell          2.0.0
 contextlib2        0.6.0.post1
 cupshelpers        1.0
 Django             3.1.7
+Flask-WTF          0.14.3
 html5lib           1.1
 importlib-metadata 3.7.3
 ipywidgets         7.6.3
@@ -172,4 +174,4 @@ toml               0.10.2
 validate           5.1.0.dev0
 virtualenv         20.4.3
 wheel              0.36.2
-youtube-dl         2021.3.25
+youtube-dl         2021.3.31
