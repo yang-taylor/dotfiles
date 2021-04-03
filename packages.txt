@@ -9,9 +9,9 @@ base 2-2
 bind 9.16.13-1
 binutils 2.36.1-2
 bison 3.7.6-1
-bluez-utils 5.56-2
+bluez-utils 5.57-1
 cmus 2.8.0-5
-cronie 1.5.6-1
+cronie 1.5.7-2
 cups 1:2.3.3op2-1
 dhcpcd 9.4.0-1
 diff-so-fancy 1.3.0-1
@@ -22,7 +22,7 @@ emacs 27.2-1
 exa 0.9.0-3
 fakeroot 1.25.3-2
 feh 3.6.3-1
-file 5.39-1
+file 5.40-1
 findutils 4.8.0-1
 firefox 87.0-1
 flameshot 0.9.0-1
@@ -31,13 +31,13 @@ font-victor-mono 1.4.2-1
 gawk 5.1.0-1
 gcc 10.2.0-6
 gettext 0.21-1
-ghostscript 9.53.3-3
+ghostscript 9.54.0-2
 git 2.31.1-1
 git-extras 6.1.0-1
 git-secret 0.3.3-1
 gradle 6.8.3-1
 grep 3.6-1
-groff 1.22.4-4
+groff 1.22.4-5
 grub 2:2.04-10
 gzip 1.10-3
 heroku-cli 7.51.0-1
@@ -48,9 +48,9 @@ i3status 2.13-3
 java-openjfx 15.0.1.u1-1
 jdk-openjdk 15.0.2.u7-1
 keepassxc 2.6.4-1
-libreoffice-fresh 7.1.1-1
+libreoffice-fresh 7.1.2-1
 libtool 2.4.6+42+gb88cebd5-14
-linux 5.11.10.arch1-1
+linux 5.11.11.arch1-1
 linux-firmware 20210315.3568f96-1
 m4 1.4.18-3
 make 4.3-3
@@ -58,12 +58,12 @@ man-db 2.9.4-1
 man-pages 5.11-1
 mit-scheme 10.1.11-1
 networkmanager 1.30.2-1
-npm 7.7.6-1
+npm 7.8.0-1
 nss-mdns 0.14.1-3
 ntfs-3g 2017.3.23-5
 openssh 8.5p1-1
 pacman 5.2.2-2
-pandoc 2.13-1
+pandoc 2.13-2
 patch 2.7.6-8
 pelican 4.5.4-1
 pkgconf 1.7.3-1
@@ -103,7 +103,7 @@ tk 8.6.11.1-1
 tmux 3.1_c-1
 ttf-fira-code 5.2-1
 ttf-ibm-plex 5.1.3-1
-ttf-iosevka 5.1.1-1
+ttf-iosevka 5.2.0-1
 udisks2 2.9.2-1
 unzip 6.0-14
 vim 8.2.2653-1
@@ -116,7 +116,7 @@ xorg-xinit 1.4.1-3
 xorg-xrandr 1.5.1-2
 yarn 1.22.10-1
 yay 10.2.0-1
-youtube-dl 2021.03.31-1
+youtube-dl 2021.04.01-1
 zip 3.0-9
 
 npm: 
@@ -126,9 +126,10 @@ npm:
 ├── git-recent@1.1.1
 ├── git-stats@2.10.13
 ├── node-gyp@7.1.2
-├── npm@7.7.6
+├── npm@7.8.0
 ├── semver@7.3.5
 ├── surge@0.22.1
+├── textlint@11.9.0
 └── yarn@1.22.10
 
 
@@ -139,15 +140,19 @@ aqt                2.1.35
 btrfsutil          5.11.1
 CacheControl       0.12.6
 chevron            0.14.0
+coala-utils        0.6.7
 codespell          2.0.0
 contextlib2        0.6.0.post1
 cupshelpers        1.0
 Django             3.1.7
+Flask-Bcrypt       0.7.1
 Flask-WTF          0.14.3
+gitdb              4.0.7
 html5lib           1.1
 importlib-metadata 3.7.3
 ipywidgets         7.6.3
 isc                2.0
+lazy-object-proxy  1.6.0
 louis              3.17.0
 ordered-set        4.0.2
 pelican            4.5.4
@@ -163,15 +168,25 @@ pyOpenSSL          20.0.1
 PyQtWebEngine      5.15.4
 PySocks            1.7.1
 ranger-fm          1.9.3
+regex              2021.3.17
 resolvelib         0.5.4
 retrying           1.3.3
+sarge              0.1.6
 scipy              1.6.1
+singledispatch     3.6.1
+Sphinx             1.4.9
+stevedore          3.3.0
 sympy              1.7.1
 team               1.0
+template-remover   0.1.9
 terminator         2.1.0
+testfixtures       4.14.3
 thefuck            3.30
 toml               0.10.2
+tqdm               4.59.0
+unidiff            0.5.5
 validate           5.1.0.dev0
 virtualenv         20.4.3
 wheel              0.36.2
-youtube-dl         2021.3.31
+wrapt              1.12.1
+youtube-dl         2021.4.1

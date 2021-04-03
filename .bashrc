@@ -25,6 +25,11 @@ tldr() {
 	curl cheat.sh/$1
 }
 
+search() {
+	pacman -Ss $1
+	yay -Ss $1
+}
+
 # backup: dd if=/dev/disk | gzip > path.gz
 # recovery: gzip -dc path.gz | dd of=/dev/disk
 
