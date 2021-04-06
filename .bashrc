@@ -17,19 +17,6 @@ setxkbmap -option caps:escape_shifted_capslock
 ## backup command: (from /home)
 ##		sudo zip -r sdb/[date].zip taylor/* -r
 
-dl-music() {
-	youtube-dl -x --audio-format mp3 "$1"
-}
-
-tldr() {
-	curl cheat.sh/$1
-}
-
-search() {
-	pacman -Ss $1
-	yay -Ss $1
-}
-
 # backup: dd if=/dev/disk | gzip > path.gz
 # recovery: gzip -dc path.gz | dd of=/dev/disk
 

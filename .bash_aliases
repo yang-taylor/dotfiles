@@ -14,3 +14,17 @@ alias npm='sudo npm'
 alias sqlite='sqlite3'
 alias fonts='fc-list'
 alias sql='sudo -iu postgres'
+alias :q='cd ..'
+
+dl-music() {
+	youtube-dl -x --audio-format mp3 "$1"
+}
+
+tldr() {
+	curl cheat.sh/$1
+}
+
+search() {
+	pacman -Ss $1
+	yay -Ss $1
+}
