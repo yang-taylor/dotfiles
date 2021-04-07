@@ -28,4 +28,4 @@ export EDITOR=vim
 eval "$(thefuck --alias)"
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin:$HOME/.local/bin"
-export github=git@github.com:taylory-xyz
+export github=git@github.com:tayleyi

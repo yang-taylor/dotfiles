@@ -1,15 +1,15 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ;; (load-theme 'base16-cupcake t)
-;; (load-theme 'base16-horizon-terminal-dark t)
+;; (load-theme 'base16-horizon-terminal-light t)
 ;; (load-theme 'base16-horizon-dark t)
 ;; (load-theme 'base16-paraiso t)
 ;; (load-theme 'base16-monokai t)
-(load-theme 'base16-eighties t)
+;; (load-theme 'base16-eighties t)
 ;; (load-theme 'base16-darktooth t)
 ;; (load-theme 'base16-summerfruit-dark t)
 ;; (load-theme 'base16-nord t)
-;; (load-theme 'base16-material-palenight t)
+(load-theme 'base16-material-palenight t)
 ;; (load-theme 'base16-material t)
 
 (selectrum-mode +1)
@@ -19,6 +19,7 @@
 
 (require 'powerline)
 (powerline-default-theme)
+(nyan-mode)
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
