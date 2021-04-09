@@ -10,7 +10,7 @@ bind 9.16.13-1
 binutils 2.36.1-2
 bison 3.7.6-1
 bluez-utils 5.58-1
-cmus 2.8.0-5
+cmus 2.9.1-1
 cronie 1.5.7-2
 cups 1:2.3.3op2-1
 dhcpcd 9.4.0-1
@@ -19,7 +19,7 @@ dmenu 5.0-1
 dosfstools 4.2-1
 efibootmgr 17-2
 emacs 27.2-1
-exa 0.10.0-1
+exa 0.10.0-2
 fakeroot 1.25.3-2
 feh 3.6.3-1
 file 5.40-1
@@ -64,7 +64,7 @@ nss-mdns 0.14.1-3
 ntfs-3g 2017.3.23-5
 openssh 8.5p1-1
 pacman 5.2.2-2
-pandoc 2.13-3
+pandoc 2.13-4
 patch 2.7.6-8
 pkgconf 1.7.3-1
 postgresql 13.2-1
