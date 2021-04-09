@@ -11,8 +11,11 @@ cd ~/learn
 	~/.dotfiles/scripts/./commit.sh || echo "learn failed :("
 sleep 2
 
-echo 'y' | sudo pacman -Sc
-echo 'y' | yay -Sc
+read -p "do you want to sc?    " reply
+if [[ $reply == "y" ]]; then
+	echo 'y' | sudo pacman -Sc
+	echo 'y' | yay -Sc
+fi
 
 cd ~/.dotfiles
 	echo "pacman: " >| ~/.dotfiles/packages.txt
