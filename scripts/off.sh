@@ -17,6 +17,13 @@ if [[ $reply == "y" ]]; then
 	echo 'y' | yay -Sc
 fi
 
+read -p "do you want to update pip?     " reply
+if [[ $reply == "y" ]]; then
+	for i in $(pip list -o | awk 'NR > 2 {print $1}')
+		do sudo pip install -U $i
+	done
+fi
+
 cd ~/.dotfiles
 	echo "pacman: " >| ~/.dotfiles/packages.txt
 	pacman -Qe >> ~/.dotfiles/packages.txt
@@ -25,6 +32,7 @@ cd ~/.dotfiles
 	echo -e "\npip: " >> ~/.dotfiles/packages.txt
 	echo "package lists updated"
 	pip list --not-required >> ~/.dotfiles/packages.txt
+
 	git add -A
 	git status
 	~/.dotfiles/scripts/./commit.sh || echo "dotfiles failed :("

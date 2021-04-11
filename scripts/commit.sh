@@ -29,7 +29,5 @@ elif [ $option -eq "5" ]; then
 	echo -e "[$(date +%m/%d)] " >| ~/.gitmessage.txt
 	git commit
 	git push
-else 
-	exit 1
 fi
 
