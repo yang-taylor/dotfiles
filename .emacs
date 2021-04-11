@@ -51,14 +51,15 @@
 
 (add-to-list 'default-frame-alist
 	'(font . "Iosevka-18"))
-
-
-(defun insert-tab () 
-	"insert a tab character (ASCII 9, \t)"
-	(interactive)
-	(insert "\t"))
-(global-set-key (kbd "TAB") 'insert-tab)
-(global-set-key (kbd "<tab>") 'insert-tab)
+;; https://dougie.io/emacs/indentation/#using-tabs-or-spaces-in-different-files
+(setq-default python-indent-offset 4)
+;; (setq default-tab-width 4)
+;; (defun insert-tab () 
+;; 	"insert a tab character (ASCII 9, \t)"
+;; 	(interactive)
+;; 	(insert "\t"))
+;; (global-set-key (kbd "TAB") 'insert-tab)
+;; (global-set-key (kbd "<tab>") 'insert-tab)
 
 
 (add-hook 'LaTeX-mode-hook
