@@ -11,12 +11,13 @@ binutils 2.36.1-2
 bison 3.7.6-1
 bluez-utils 5.58-1
 cmus 2.9.1-1
+code 1.54.3-3
 cronie 1.5.7-2
 cups 1:2.3.3op2-2
 dhcpcd 9.4.0-1
 diff-so-fancy 1.3.0-1
 dmenu 5.0-1
-docker 1:20.10.5-1
+docker 1:20.10.6-1
 dosfstools 4.2-1
 efibootmgr 17-2
 emacs 27.2-1
@@ -119,7 +120,7 @@ xclip 0.13-3
 xorg-server 1.20.10-3
 xorg-xinit 1.4.1-3
 xorg-xrandr 1.5.1-2
-yay 10.2.0-1
+yay 10.2.1-1
 youtube-dl 2021.04.07-1
 zip 3.0-9
 
@@ -146,7 +147,7 @@ blinker                       1.4
 btrfsutil                     5.11.1
 CacheControl                  0.12.6
 chevron                       0.14.0
-coala-utils                   0.6.7
+coala-utils                   0.7.0
 codespell                     2.0.0
 contextlib2                   0.6.0.post1
 cupshelpers                   1.0
@@ -196,7 +197,6 @@ team                          1.0
 template-remover              0.1.9
 termdown                      1.17.0
 terminator                    2.1.1
-testfixtures                  4.14.3
 thefuck                       3.30
 toml                          0.10.2
 tqdm                          4.59.0
