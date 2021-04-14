@@ -24,7 +24,7 @@ emacs 27.2-1
 exa 0.10.0-2
 fakeroot 1.25.3-2
 feh 3.6.3-1
-file 5.40-1
+file 5.40-2
 findutils 4.8.0-1
 firefox 87.0-2
 flameshot 0.9.0-1
@@ -67,7 +67,7 @@ nss-mdns 0.14.1-3
 ntfs-3g 2017.3.23-5
 openssh 8.5p1-1
 pacman 5.2.2-2
-pandoc 2.13-5
+pandoc 2.13-6
 patch 2.7.6-8
 pdftk 3.2.2-1
 pkgconf 1.7.3-1
@@ -105,7 +105,7 @@ texlive-publishers 2020.57058-1
 texlive-science 2020.57068-1
 thefuck 3.30-3
 tk 8.6.11.1-1
-tmux 3.1_c-1
+tmux 3.2-1
 ttf-fira-code 5.2-1
 ttf-ibm-plex 5.1.3-1
 ttf-iosevka 5.2.1-1
@@ -117,7 +117,7 @@ vlc 3.0.12-4
 wget 1.21.1-1
 which 2.21-5
 xclip 0.13-3
-xorg-server 1.20.10-3
+xorg-server 1.20.11-1
 xorg-xinit 1.4.1-3
 xorg-xrandr 1.5.1-2
 yay 10.2.1-1
@@ -153,6 +153,7 @@ contextlib2                   0.6.0.post1
 cupshelpers                   1.0
 Django                        3.2
 element                       0.1
+email-validator               1.1.2
 feedgenerator                 1.9.1
 feedparser                    6.0.2
 Flask-Bcrypt                  0.7.1

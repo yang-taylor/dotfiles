@@ -51,15 +51,20 @@
 
 (add-to-list 'default-frame-alist
 	'(font . "Iosevka-18"))
-;; https://dougie.io/emacs/indentation/#using-tabs-or-spaces-in-different-files
-(setq-default python-indent-offset 4)
-;; (setq default-tab-width 4)
-;; (defun insert-tab () 
-;; 	"insert a tab character (ASCII 9, \t)"
+
+;; (defun insert-spaces () 
+;; 	"insert a four spaces"
 ;; 	(interactive)
-;; 	(insert "\t"))
-;; (global-set-key (kbd "TAB") 'insert-tab)
-;; (global-set-key (kbd "<tab>") 'insert-tab)
+;; 	(insert "    "))
+;; (global-set-key (kbd "TAB") 'insert-spaces)
+;; (global-set-key (kbd "<tab>") 'insert-spaces)
+
+(defun insert-tab () 
+	"insert a tab character (ASCII 9, \t)"
+	(interactive)
+	(insert "\t"))
+(global-set-key (kbd "TAB") 'insert-tab)
+(global-set-key (kbd "<tab>") 'insert-tab)
 
 
 (add-hook 'LaTeX-mode-hook
@@ -99,7 +104,7 @@
  '(TeX-open-quote "\"")
  '(inhibit-startup-screen t)
  '(package-selected-packages
-   '(pdf-tools latex-preview-pane ivy ein flyspell-correct-popup live-py-mode ac-html better-defaults lsp-javacomp nyan-mode powerline forge treemacs elpy math-preview multiple-cursors auto-complete selectrum magit base16-theme polymode org markdown-mode evil company-math auctex)))
+   '(py-autopep8 pdf-tools latex-preview-pane ivy ein flyspell-correct-popup live-py-mode ac-html better-defaults lsp-javacomp nyan-mode powerline forge treemacs elpy math-preview multiple-cursors auto-complete selectrum magit base16-theme polymode org markdown-mode evil company-math auctex)))
 ;; (custom-set-faces
 ;;  ;; custom-set-faces was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
