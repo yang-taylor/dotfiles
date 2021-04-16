@@ -22,7 +22,7 @@ ln -s ~/.dotfiles/.emacs ~/.emacs && \
 	echo 'emacs ==> success!' || echo 'emacs ==> failed :('
 
 ### set up i3
-ln -s ~/.dotfiles/i3/config ~/.config/i3/config && \
+ln -sf ~/.dotfiles/i3/config ~/.config/i3/config && \
 	echo 'i3 ==> success!' || echo 'i3 ==> failed :('
 
 ### set up alacritty
@@ -46,7 +46,7 @@ chmod +x ~/.dotfiles/scripts/commit.sh && \
 
 ### set up git
 ln -s ~/.dotfiles/git-configs/.gitignore_global ~/.gitignore_global && \
-ln -s ~/.dotfiles/git-configs/.gitmessage.txt ~/.gitmessage.txt && \
+touch ~/.gitmessage.txt && \
 git config --global user.name "taylor y" && \
 git config --global user.email "64106592+tayleyi@users.noreply.github.com" && \
 git config --global pull.rebase false && \
