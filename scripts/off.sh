@@ -24,6 +24,11 @@ if [[ $reply == "y" ]]; then
 	done
 fi
 
+read -p "do you want to update pip?     " reply
+if [[ $reply == "y" ]]; then
+	sudo npm update -g
+fi
+
 cd ~/.dotfiles
 	echo "pacman: " >| ~/.dotfiles/packages.txt
 	pacman -Qe >> ~/.dotfiles/packages.txt

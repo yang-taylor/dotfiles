@@ -28,3 +28,7 @@ search() {
 	pacman -Ss $1
 	yay -Ss $1
 }
+
+systemctl-begin() {
+	systemctl enable $1 && systemctl start $1
+}
