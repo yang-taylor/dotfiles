@@ -12,7 +12,7 @@ root="https://gists.tayleyi.com"
 
 htmlURL="${root}/template.html"
 
-texURL="${root}/personal-notes.tex"
+texURL="${root}/notes.tex"
 
 if [ $filetype -eq "1" ]; then
 	curl $htmlURL > $1
@@ -23,7 +23,7 @@ if [ $filetype -eq "2" ]; then
 fi
 
 if [ $filetype -eq "3" ]; then
-	curl "${root}/fx-build.gradle" > $1
+	curl "${root}/build.gradle" > $1
 fi
 
 if [ $filetype -eq "4" ]; then

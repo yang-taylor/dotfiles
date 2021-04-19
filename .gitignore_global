@@ -17,6 +17,10 @@
 **/build/
 **/node_modules/
 
+# hugo
+**/public/
+**/resources/_gen/
+
 # python
 **/__pycache__/
 **/key.txt

@@ -24,7 +24,7 @@ if [[ $reply == "y" ]]; then
 	done
 fi
 
-read -p "do you want to update pip?     " reply
+read -p "do you want to update npm?     " reply
 if [[ $reply == "y" ]]; then
 	sudo npm update -g
 fi
