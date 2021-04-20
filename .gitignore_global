@@ -24,3 +24,7 @@
 # python
 **/__pycache__/
 **/key.txt
+
+# emacs
+\#+\#
+.*\~
