@@ -30,13 +30,10 @@ if [[ $reply == "y" ]]; then
 fi
 
 cd ~/.dotfiles
-	echo "pacman: " >| ~/.dotfiles/packages.txt
-	pacman -Qe >> ~/.dotfiles/packages.txt
-	echo -e "\nnpm: " >> ~/.dotfiles/packages.txt
-	npm list -g --depth=0 >> ~/.dotfiles/packages.txt
-	echo -e "\npip: " >> ~/.dotfiles/packages.txt
-	echo "package lists updated"
-	pip list --not-required >> ~/.dotfiles/packages.txt
+	pacman -Qqen > ~/.dotfiles/packages/arch-pkglist.txt
+	pacman -Qqem > ~/.dotfiles/packages/aur-pkglist.txt	
+	npm list -g --depth=0 > ~/.dotfiles/packages/npm-pkglist.txt
+	pip freeze > ~/.dotfiles/packages/pip-pkglist.txt
 
 	git add -A
 	git status

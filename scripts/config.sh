@@ -84,6 +84,11 @@ cp ~/.dotfiles/.gitconfig ~/.gitconfig
 # git config --global core.autocrlf input
 report $? 'git'
 
+## install arch official packages
+while read package; do
+	sudo pacman -S $package
+done < ~/.dotfiles/packages/arch-pkglist.txt
+
 # nerd fonts: Iosevka, VictorMono, FiraCode, Space Mono, Ubuntu Mono, Fira Mono, Monoid
 # other fonts: Sometype Mono (on Dharma Type), sudo (by jenskutilek), JetBrains Mono, Inter (by rsms)
 # chrissimpkins codeface: droid sans mono, cousine, monospace typewriter, office-code-pro

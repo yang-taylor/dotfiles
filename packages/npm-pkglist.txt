@@ -1,0 +1,8 @@
+/usr/lib
+├── alex@9.1.0
+├── heroku@7.52.0
+├── node-gyp@8.0.0
+├── npm@7.10.0
+├── semver@7.3.5
+└── vercel@21.3.3
+
