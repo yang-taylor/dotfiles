@@ -57,6 +57,7 @@ postgresql
 pulseaudio
 python-pip
 ranger
+redshift
 rofi
 rsync
 ruby

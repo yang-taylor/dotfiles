@@ -30,8 +30,7 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 report $? 'vimrc'
 
 ln -s ~/.dotfiles/.emacs ~/.emacs && \
-	mkdir .emacs.d && \
-	ln -s ~/.dotfiles/lisp ~/.emacs.d/lisp
+mkdir .emacs.d && ln -s ~/.dotfiles/lisp ~/.emacs.d/lisp
 report $? 'emacs'
 
 
@@ -43,9 +42,16 @@ report $? 'i3'
 
 
 ### set up alacritty
-mkdir ~/.config/alacritty && \
-	ln -s ~/.dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
+mkdir ~/.config/alacritty
+ln -s ~/.dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
 report $? 'alacritty'
+
+
+
+### set up redshift
+mkdir ~/.config/redshift
+ln -s ~/.dofiles/redshift.conf ~/.config/redshift/redshift.conf
+report $? 'redshift'
 
 
 

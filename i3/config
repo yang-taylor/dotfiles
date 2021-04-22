@@ -83,13 +83,12 @@ exec --no-startup-id i3-msg 'workspace "| three |"; exec firefox; workspace "| t
 exec --no-startup-id flameshot
 exec --no-startup-id emacs ~/learn/agenda.org
 exec --no-startup-id keepassxc
+exec --no-startup-id redshift -l 36:-79
 assign [class="KeePassXC"] $ws1
 # xprop to find class
 
 
-# networkmanager-applet
 exec_always feh --bg-scale /home/taylor/pictures/tangchilee-skyline.jpg
-# exec_always --no-startup-id /home/taylor/.config/polybar/launch.sh
 exec_always setxkbmap -option caps:escape_shifted_capslock
 
 bar {

@@ -15,6 +15,7 @@ alias sqlite='sqlite3'
 alias fonts='fc-list'
 alias sql='sudo -iu postgres'
 alias :q='cd ..'
+alias :x='cd ..'
 
 dl-music() {
 	youtube-dl -x --audio-format mp3 "$1"
@@ -31,4 +32,13 @@ search() {
 
 systemctl-begin() {
 	systemctl enable $1 && systemctl start $1
+}
+
+git-clean-history() {
+	git checkout --orphan newBranch
+	git add -A
+	git commit -m "$(date): clean"
+	git branch -D main
+	git branch -m main
+	echo 'remember: "git push -f origin main" and "git gc --aggressive --prune=all"'
 }
