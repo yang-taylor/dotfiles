@@ -22,7 +22,8 @@ for i in $(pip list -o | awk 'NR > 2 {print $1}'); do pip install -U $i; done
 pip list --not-required >| ~/.dotfiles/packages/pip-pkglist.txt
 report $? 'pip'
 
-# cp ~/AppData/Roaming/Code/User/settings.json settings.json && echo "vscode settings.json: updated" || echo "vscode settings.json: failed :("
+cp ~/AppData/Roaming/Code/User/settings.json ~/.dotfiles/windows/settings.json 
+report $? 'vscode'
 
 fmtdate="$(date +%m/%d)"
 message="[${fmtdate}]"

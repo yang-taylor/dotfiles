@@ -9,6 +9,7 @@ parse_git_branch() {
 export HOME=/cygdrive/c/Users/taylor
 cd $HOME
 export github=git@github.com:tayleyi
+export gitlab=git@gitlab.com:tayleyi
 
 export PS1="\n\[$(tput setaf 5)\]\A \[$(tput setaf 1)\][\u] \n\[$(tput setaf 6)\][\w] \$(tput sgr0)\]\$(parse_git_branch)\n"
 

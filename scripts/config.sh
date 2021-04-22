@@ -95,6 +95,13 @@ while read package; do
 	sudo pacman -S $package
 done < ~/.dotfiles/packages/arch-pkglist.txt
 
+## install vscode extensions
+while read extension; do
+	code --install-extension $extension --force
+done < ~/.dotfiles/packages/vscode-extensions.txt
+
+## install emacs extensions
+
 # nerd fonts: Iosevka, VictorMono, FiraCode, Space Mono, Ubuntu Mono, Fira Mono, Monoid
 # other fonts: Sometype Mono (on Dharma Type), sudo (by jenskutilek), JetBrains Mono, Inter (by rsms)
 # chrissimpkins codeface: droid sans mono, cousine, monospace typewriter, office-code-pro
