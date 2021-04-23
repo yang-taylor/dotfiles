@@ -1,6 +1,6 @@
 # getting started
 
-### Clone the repository in a `.dotfiles` directory:
+### Clone the repository into a `.dotfiles` directory:
 `git clone https://github/tayleyi/dotfiles .dotfiles`
 
 ---
@@ -10,7 +10,6 @@
 2. #### in the cygwin terminal:
 ```
 $ ln -s /cygdrive/c/Users/taylor/.dotfiles/windows/.bashrc /home/taylor/.bashrc
-$ source ~/.bashrc
 $ cp ~/.dotfiles/windows/.vimrc ~/.vimrc
 $ cp ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
