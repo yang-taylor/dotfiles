@@ -108,3 +108,4 @@ done < ~/.dotfiles/packages/vscode-extensions.txt
 # google fonts: roboto condensed, montserrat, source code pro, oswald, bebas neue, abel, ibm plex sans, 
 	# questrial, archivo, archivo naarro, overpass, jost, karma, noto serif tc, pontano sans, saira semi condensed, 
 	# lexend deca, playfair display, red hat display, libre barcode 39 text, alegreya sans sc, voltaire, carrois gothic sc
+rt url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");

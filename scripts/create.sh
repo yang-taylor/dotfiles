@@ -5,6 +5,7 @@ echo -e "\t1: html"
 echo -e "\t2: tex (self-notes)"
 echo -e "\t3: javafx build.gradle"
 echo -e "\t4: markdown"
+echo -e "\t5: python"
 
 read filetype
 
@@ -28,4 +29,8 @@ fi
 
 if [ $filetype -eq "4" ]; then
 	curl "${root}/metadata.md" > $1
+fi
+
+if [ $filetype -eq "5" ]; then
+	curl "${root}/tkinter" > $1
 fi
