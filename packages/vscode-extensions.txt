@@ -1,0 +1,10 @@
+benawad.VSinder
+firefox-devtools.vscode-firefox-debug
+jolaleye.horizon-theme-vscode
+ms-vscode.cpptools
+svelte.svelte-vscode
+tonybaloney.vscode-pets
+vsciot-vscode.vscode-arduino
+vscodevim.vim
+WallabyJs.quokka-vscode
+ziishaned.livereload

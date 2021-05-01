@@ -22,7 +22,7 @@ alias ls='ls --color=auto -al'
 alias add='git add -A && git status'
 alias commit='bash $HOME/.dotfiles/scripts/commit.sh'
 alias create='bash $HOME/.dotfiles/scripts/create.sh'
-alias off='bash $HOME/.dotfiles/scripts/windows-off.sh' # windows
+alias off='bash $HOME/dotfiles/scripts/windows-off.sh' # windows
 
 tldr() {
     curl cheat.sh/$1

@@ -4,9 +4,9 @@ echo "running setup script..."
 
 report() {
 	if [ $1 -eq 0 ]; then
-		echo '${2} ==> success! :)'
+		echo $2 '==> success! :)'
 	else
-		echo '${2} ==> fail :('
+		echo $2 '==> fail :('
 	fi
 }
 

@@ -1,0 +1,19 @@
+Chocolatey v0.10.15
+arduino 1.8.13
+autohotkey.portable 1.1.33.08
+chocolatey 0.10.15
+chocolatey-core.extension 1.3.5.1
+Cygwin 3.2.0
+DotNet4.5.2 4.5.2.20140902
+Firefox 88.0
+git 2.31.1
+git.install 2.31.1
+github-desktop 2.8.0
+gradle 7.0.0
+keepassxc 2.6.4
+nodejs 16.0.0
+nodejs.install 16.0.0
+rufus 3.14
+vscode 1.55.2
+vscode.install 1.55.2
+17 packages installed.

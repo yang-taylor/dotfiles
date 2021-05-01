@@ -1,26 +1,26 @@
 report() {
 	if [ $1 -eq 0 ]; then
-		echo '${2} ==> updated! :)'
+		echo $2 ' ==> updated! :)'
 	else
-		echo '${2} ==> failed :('
+		echo $2 ' ==> failed :('
 	fi
 }
 
 cup all
 
-choco list --local-only >| ~/.dotfiles/packages/choco-list.txt
+choco list --local-only >| ~/dotfiles/packages/choco-list.txt
 report $? 'choco'
 
-code --list-extensions >| ~/.dotfiles/packages/vscode-extensions.txt
+code --list-extensions >| ~/dotfiles/packages/vscode-extensions.txt
 report $? 'vscode'
 
 npm update -g 
 report $? 'npm'
 
-for i in $(pip list -o | awk 'NR > 2 {print $1}'); do pip install -U $i; done
-report $? 'pip'
+# for i in $(pip list -o | awk 'NR > 2 {print $1}'); do pip install -U $i; done
+# report $? 'pip'
 
-cp ~/AppData/Roaming/Code/User/settings.json ~/.dotfiles/windows/settings.json 
+cp ~/AppData/Roaming/Code/User/settings.json ~/dotfiles/windows/settings.json 
 report $? 'vscode'
 
 fmtdate="$(date +%m/%d)"
