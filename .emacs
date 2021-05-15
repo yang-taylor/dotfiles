@@ -5,6 +5,8 @@
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 (package-initialize)
 
+;; (require 'kaolin-themes)
+;; (load-theme 'kaolin-aurora t)
 (load-theme 'base16-cupcake t)
 ;; (load-theme 'base16-horizon-terminal-light t)
 ;; (load-theme 'base16-horizon-dark t)
@@ -90,3 +92,16 @@
 ;; (setq org-bullets-bullet-list '("⚡" "➞" "⤷" "≫"))
 
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(kaolin-themes selectrum powerline pdf-tools org-drill nyan-mode multiple-cursors markdown-mode magit evil base16-theme auctex)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -11,11 +11,13 @@ alias create='~/.dotfiles/scripts/./create.sh'
 alias commit='~/.dotfiles/scripts/./commit.sh'
 alias pacman='sudo pacman'
 alias npm='sudo npm'
+alias clone='git clone'
 alias sqlite='sqlite3'
 alias fonts='fc-list'
 alias sql='sudo -iu postgres'
 alias :q='cd ..'
 alias :x='cd ..'
+alias chown='sudo chown'
 
 dl-music() {
 	youtube-dl -x --audio-format mp3 "$1"

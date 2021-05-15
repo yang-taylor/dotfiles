@@ -1,0 +1,47 @@
+<li>calc/Calculus.pdf (“[Calculus])https://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/),” Gilbert Strang, MIT) 
+<li>(<a href="https://tutorial.math.lamar.edu/">Complete Problems and Solutions from Paul’s Online Notes</a>) calc/paul/CalcI_Complete_Problems.pdf calc/paul/CalcI_Complete_Solutions.pdf calc/paul/CalcII_Complete_Problems.pdf calc/paul/CalcII_Complete_Solutions.pdf 
+<h4 id="java">java</h4>
+<li><p>java/DS+A.pdf</p> 
+<li><p>java/ProgrammingInterviews.pdf</p> 
+<li><p>java/TIPatterns.pdf</p> 
+<li><p>java/book.pdf</p> 
+<li><p><a href="https://cpbook.net/">java/cp2.pdf</a>, <a href="https://github.com/stevenhalim/cpbook-code">gh</a></p> 
+<li><p>java/java.pdf</p> 
+<li><p>java/javanotes8-linked.pdf</p> 
+<li><p>(<a href="https://greenteapress.com/wp/">Java Books from Green Tea Press</a>) java/thinkdast.pdf java/thinkjava2.pdf</p>
+<p>java/ucf-online/problemSet2021Online-Div2.pdf</p> 
+<h4 id="julia">julia</h4>
+<li>julia/julia_express.pdf <a href="http://bogumilkaminski.pl/files/julia_express.pdf">The Julia Express</a> 
+<h4 id="linalg">linalg</h4>
+<li>linalg/All_the-Math_You_Missed.pdf 
+<li>linalg/ElementaryLinAlg-Anton.pdf 
+<li>linalg/JimHeffLinAlg.pdf (‘<a href="http://joshua.smcvt.edu/linearalgebra/">Linear Algebra</a>+Answer Key’ by Jim Hefferson) 
+<li>linalg/LADW_2017-09-04.pdf 
+<li>linalg/LinAlg-Friedberg+Insel+Spense.pdf 
+<li>linalg/Linear_algebra_101.pdf 
+<li>linalg/SchaumsOutline.pdf 
+<li>linalg/matrixcookbook.pdf (‘Matrix Cookbook’, by Kaare Brandt Petersen and Michael Sysking Pedersen, from UWaterloo) 
+<li>cs229-linalg.pdf (‘<a href="http://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review and Reference</a>,’ by Zico Kolter (updated by Chuong Do), from Stanford) 
+<h4 id="ml">ml</h4>
+<li>ml/ml4dummies.pdf (“<a href="https://www.ibm.com/downloads/cas/GB8ZMQZ3">Machine Learning for Dummies</a>”) 
+<li>ml/ai-java.pdf (“<a href="https://cse.sc.edu/~mgv/csce580f12/Luger_0136070477_1.pdf">AI Algorithms, Data Structures, and Idioms in Prolog, Lisp, and Java</a>”) 
+<li>ml/ml-learning.pdf (“<a href="https://www.dbooks.org/machine-learning-yearning-1501/">Machine Learning Yearning</a>”) 
+<li>ml/human-consc.pdf (“<a href="https://library.oapen.org/bitstream/id/3e977860-0060-4a61-b6e1-ab6176058977/648914.pdf">Human and Machine Consciousness</a>”) 
+<li>ml/course-ml.pdf (“<a href="http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf">A Course in Machine Learning</a>”) 
+<li>ml/ml4humans.pdf (“<a href="https://drive.google.com/file/d/1_yP7jeOOYhO9zrDVNmRWeeMowoad2A_4/view">Machine Learning for Humans</a>”) 
+<li>ml/ESLII_print12_toc.pdf (“Elements of Statistical Learning”, Textbook, Stanford) 
+<li>ml/MLBOOK.pdf 
+<li>ml/d2l-en.pdf (<a href="https://d2l.ai/">Dive into Deep Learning</a> with Python) 
+<li>ml/math4ml.pdf (‘<a href="https://gwthomas.github.io/docs/math4ml.pdf/">Mathematics for Machine Learning</a>,’ Textbook byGarrett Thomas) 
+<li>ml/mml-book.pdf (‘<a href="https://mml-book.github.io/">Mathematics for Machine Learning</a>,’ Textbook) 
+<li>ml/ml-algorithmic-pov.pdf (‘<a href="https://www.pythonstacks.com/free-books/book/machine-learning-algorithmic-perspective">Machine Learning: An Algorithmic Perspective</a>,’ Stephen Marsland) 
+<li>ml/understanding-ml.pdf (‘<a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html">Understanding Machine Learning: From Theory to Algorithms</a>’) 
+<h4 id="stats">stats</h4>
+<li>stats/6111-21-probTheory.pdf 
+<li>stats/AP_Stats_Review.pdf 
+<li>stats/ISLR Seventh Printing.pdf 
+<li>stats/MIT-18_05-Probability.pdf 
+<li>stats/MITRES_6_012S18_Textbook.pdf (‘Introduction to Probability,’ by Dmitri P. Bertsekas and John N. Tsitsiklis, from MIT) 
+<li>stats/StatisticsWithJuliaDRAFT.pdf 
+<li>stats/amsbook.mac.pdf (‘Introduction to Probability,’ by Charles M. Grinstead and J. Laurie Snell, from Dartmouth) 
+<li>stats/ProbStatBook.pdf (‘<a href="http://heather.cs.ucdavis.edu/~matloff/132/PLN/probstatbook/ProbStatBook.pdf">From Algorithms to Z-Scores: Probabilistic and Statistical Modeling in Computer Science</a>’) 
