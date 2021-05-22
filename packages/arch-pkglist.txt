@@ -88,6 +88,7 @@ texlive-science
 thefuck
 unzip
 vim
+vlc
 which
 xclip
 xorg-server
