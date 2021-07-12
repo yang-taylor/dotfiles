@@ -11,13 +11,19 @@ if [[ $reply == "y" ]]; then
 	echo 'y' | yay -Sc
 fi
 
-read -p "do you want to update pip?     " reply
+read -p "do you want to update packages?     " reply
 if [[ $reply == "y" ]]; then
-	# pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
-	for i in $(pip list -o | awk 'NR > 2 {print $1}')
-		do pip install -U $i
-	done
+	sudo pacman -Syu
+	yay
 fi
+
+# read -p "do you want to update pip?     " reply
+# if [[ $reply == "y" ]]; then
+# 	# pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+# 	for i in $(pip list -o | awk 'NR > 2 {print $1}')
+# 		do pip install -U $i
+# 	done
+# fi
 
 read -p "do you want to update npm?     " reply
 if [[ $reply == "y" ]]; then
