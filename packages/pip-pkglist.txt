@@ -95,7 +95,7 @@ sqlparse==0.4.1
 team==1.0
 termdown==1.17.0
 terminator==2.1.1
-texttable==1.6.3
+texttable==1.6.4
 thefuck==3.31
 tk==0.1.0
 toml==0.10.2
