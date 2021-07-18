@@ -1,6 +1,6 @@
 /home/taylor/.nvm/versions/node/v14.16.1/lib
 ├── broken-link-checker@0.7.8
-├── npm@7.19.1
+├── npm@7.20.0
 ├── rollup@2.53.2
 ├── sass@1.35.2
 ├── scss@0.2.4
